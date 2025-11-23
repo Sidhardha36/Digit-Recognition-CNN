@@ -1,4 +1,4 @@
-#  Handwritten Digit Recognition (CNN + Pygame UI)
+# Handwritten Digit Recognition (CNN + Pygame UI)
 
 This project is an interactive **digit recognition application** where users can draw digits (0–9) on a canvas, and a trained **Convolutional Neural Network (CNN)** predicts the number in real-time.
 
@@ -23,16 +23,16 @@ It combines:
 ## 📂 Project Structure
 
 Digit-Recognition/
+│── app/
+│   └── recognition.py        # Pygame UI for drawing and prediction
 │
-├── app/
-│ └── recognition.py # Pygame UI for drawing and prediction
-│
-├── model/
-│ ├── model.py # Script to train the CNN
-│ └── model.h5 # Saved CNN model
+│── model/
+│   ├── model.py              # Script to train the CNN
+│   └── model.h5              # Saved CNN model
 │
 ├── requirements.txt
 └── README.md
+
 
 
 
@@ -48,21 +48,22 @@ Digit-Recognition/
 
 ## 🔧 Installation & Setup
 
-### 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/<your-username>/Digit-Recognition-CNN.git
 cd Digit-Recognition-CNN
 
-2. Create a virtual environment (recommended)
+## 2. Create a virtual environment (recommended)
 python -m venv venv
 
--For Windows
+For Windows
 venv\Scripts\activate
--For Mac / Linux
+For Mac / Linux
 source venv/bin/activate
 
-3. Install dependencies
+## 3. Install dependencies
 pip install -r requirements.txt
--Train the CNN (Optional)
+
+## Train the CNN (Optional)
 If you want to retrain the model:
 cd model
 python model.py
@@ -73,7 +74,7 @@ cd app
 python recognition.py
 A window will open where you can draw digits and get predictions.
 
-How the Model Works:
+## How the Model Works:
 
 User draws a digit on a 300×300 canvas
 Image is:
@@ -83,19 +84,19 @@ Image is:
 4.Input is normalized and passed to the CNN
 5.Model outputs prediction (0–9)
 
-📈 Model Performance
+## 📈 Model Performance
 Trained on MNIST dataset with:
 
- -99% Training Accuracy
- -98–99% Validation Accuracy
+-99% Training Accuracy
+-98–99% Validation Accuracy
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues or submit pull requests.
 
-📜 License
+## 📜 License
 This project is open-source and free for personal or academic use.
 
-👤 Author
+## 👤 Author
 Sidhardha Varma
 Passionate about AI, Deep Learning.
