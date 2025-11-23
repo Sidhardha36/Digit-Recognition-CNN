@@ -34,9 +34,8 @@ small_font = pygame.font.SysFont("Segoe UI", 20)
 BRUSH_SIZE = 12
 
 
-# -------------------------------------------------
-#   PREDICTION — FIXED WITH PROPER RESIZE
-# -------------------------------------------------
+# PREDICTION — FIXED WITH PROPER RESIZE
+
 def predict_digit():
     arr = pygame.surfarray.array3d(canvas)
 
@@ -59,9 +58,8 @@ def predict_digit():
     return np.argmax(pred)
 
 
-# -------------------------------------------------
-#   BUTTON COMPONENT
-# -------------------------------------------------
+# BUTTON COMPONENT
+
 def draw_button(text, x, y, w, h):
     mouse = pygame.mouse.get_pos()
     rect = pygame.Rect(x, y, w, h)
@@ -73,9 +71,8 @@ def draw_button(text, x, y, w, h):
     return rect
 
 
-# -------------------------------------------------
-#   MAIN LOOP
-# -------------------------------------------------
+# MAIN LOOP
+
 running = True
 prediction = ""
 
