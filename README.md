@@ -1,6 +1,9 @@
-<img width="646" height="578" alt="Screenshot 2025-11-23 230347" src="https://github.com/user-attachments/assets/b0df19b1-d328-494d-a915-dfaf91e9b7d8" />
-<img width="638" height="569" alt="Screenshot 2025-11-23 230303" src="https://github.com/user-attachments/assets/93bb89fa-611d-4a7d-85cf-8f97ed2add4b" />
-<img width="624" height="572" alt="Screenshot 2025-11-23 230457" src="https://github.com/user-attachments/assets/52e82ce1-f56d-4756-bd66-7c696b0f3e11" />
+<img width="624" height="572" alt="Screenshot 2025-11-23 230457" src="https://github.com/user-attachments/assets/62fcc836-0a5c-406d-ad2f-c4d7f632898b" />
+<img width="638" height="569" alt="Screenshot 2025-11-23 230303" src="https://github.com/user-attachments/assets/09155025-1e39-45cd-8a91-cbb855b598c4" />
+<img width="646" height="578" alt="Screenshot 2025-11-23 230347" src="https://github.com/user-attachments/assets/59dcc0b7-1e10-451e-b303-3f4b1bbb9eea" />
+
+
+
 # Handwritten Digit Recognition (CNN + Pygame UI)
 
 This project is an interactive digit recognition application where users can draw digits (0–9) on a canvas, and a trained Convolutional Neural Network (CNN) predicts the number in real-time.
